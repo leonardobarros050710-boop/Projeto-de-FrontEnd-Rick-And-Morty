@@ -1,0 +1,60 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Rick and Morty Explorer</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+    <header>
+        <h1>Rick and Morty Explorer</h1>
+        <p>Explore os personagens do multiverso!</p>
+    </header>
+
+    <main>
+        <section id="personagens">
+
+            <h2>Conheça os personagens</h2>
+
+<form id="form-busca" class="controles">
+    <input
+        type="search"
+        id="campo-busca"
+        placeholder="Digite o nome de um personagem..."
+    >
+
+    <button type="submit">Pesquisar</button>
+</form>
+
+<div class="paginacao">
+    <button id="pagina-anterior" type="button">
+        Anterior
+    </button>
+
+    <span id="indicador-pagina">Página 1</span>
+
+    <button id="pagina-proxima" type="button">
+        Próxima
+    </button>
+</div>
+
+            <div id="cards-container">
+                <!-- Os cards serão adicionados pelo JavaScript -->
+            </div>
+
+        </section>
+    </main>
+
+    <footer>
+        <p>Projeto acadêmico - Desenvolvimento Front-end</p>
+    </footer>
+
+</body>
+</html>
